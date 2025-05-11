@@ -34,14 +34,14 @@ Let's find the volume of the surface generated. We know volume(v)= Area x height
 Volume, v(x)= Area x dx. Where dx is the height of the cross section.
 To find the volume of the entire surface, integrate it from 1 to infinity.
 
-  \[
-  V(x) = \pi \int_1^\infty \left(\frac{1}{x}\right)^2 dx = \pi
-  \]
+![image](https://github.com/user-attachments/assets/0e8a77cc-a024-4b3b-be34-746bb7f25aa6)
+
 
 - **Surface Area:**  
-  \[
-  A = 2\pi \int_1^\infty \frac{1}{x} \sqrt{1 + \left(-\frac{1}{x^2}\right)^2} dx \rightarrow \infty
-  \]
+![image](https://github.com/user-attachments/assets/697ee7ea-9af5-4ba1-9d0c-d165cbe85abc)
+![image](https://github.com/user-attachments/assets/21401280-a9b1-4955-882a-be399c8d624f)
+![image](https://github.com/user-attachments/assets/cb9417c6-682c-474d-8382-9012954b65b8)
+
 
 ---
 
