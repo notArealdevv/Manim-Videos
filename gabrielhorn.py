@@ -1,31 +1,30 @@
 from manim import*
 
-
 class XYZAxes3D(ThreeDScene):
     def construct(self):
-        # Set the 3D camera orientation
-        self.set_camera_orientation(phi=75 * DEGREES, theta=30 * DEGREES)
-
-        text = Text("Gabriel's Horn", font_size=30)
-        text.set_color(WHITE)
-        text.to_corner(UL)
+        title = Text("Gabriel's Horn", font_size=15)
         
-        self.play(Write(text)) 
-        self.wait(1) 
-        self.play(FadeOut(text))
+        self.play(Write(title))  # Animate the writing
+        self.wait(1)
+
+        # Move to upper-left corner (using coordinates)
+        self.play(
+            title.animate.to_corner(UL),
+            run_time=1
+        )
+
+        self.wait(1)
         
         # Create 3D axes
         axes = ThreeDAxes(
-            x_range=[-5, 5, 1],
-            y_range=[-5, 5, 1],
-            z_range=[-5, 5, 1],
-            x_length=6,
-            y_length=6,
-            z_length=6,
+            x_range=[-5, 5],
+            y_range=[-5, 5],
+            x_length=10,
+            y_length=10,
         )
 
         # Add labels
-        labels = axes.get_axis_labels(x_label="x", y_label="y", z_label="z")
+        labels = axes.get_axis_labels(x_label="x", y_label="y")
 
         # Add everything to the scene
         self.add(axes, labels)
