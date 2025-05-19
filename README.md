@@ -15,23 +15,16 @@ Despite having an **infinite surface area**, Gabriel’s Horn encloses only a **
 
 ---
 
-## 📂 Files Included
-
-- `gabriels_horn.py`: Manim code for generating the animation
-- `README.md`: Project documentation (this file)
-- `output/`: Folder where rendered videos will be saved (created after rendering)
-
----
 
 ## 🧮 Math Behind Gabriel's Horn
 How can we find the volume of the surface generated?
 
-First, let's find the area of the cross section. The cross section will be a circle with the area, A(x)= pi(r^2).
+First, let's find the area of the cross-section. The cross section will be a circle with the area, A(x)= pi(r^2).
 The radius will be equal to the function f(x). Therefore the area A(x)= pi [f(x)]^2).
 
 - **Volume:**
 Let's find the volume of the surface generated. We know volume(v)= Area x height.
-Volume, v(x)= Area x dx. Where dx is the height of the cross section.
+Volume, v(x)= Area x dx. Where dx is the height of the cross-section.
 To find the volume of the entire surface, integrate it from 1 to infinity.
 
 ![image](https://github.com/user-attachments/assets/0e8a77cc-a024-4b3b-be34-746bb7f25aa6)
