@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/biraj/OneDrive/ドキュメント/My codes/Calculus 2 Project/media/videos/gabrielhorn/1080p60/partial_movie_files/XYZAxes3D/4242032193_3432133454_223132457.mp4'
-file 'file:C:/Users/biraj/OneDrive/ドキュメント/My codes/Calculus 2 Project/media/videos/gabrielhorn/1080p60/partial_movie_files/XYZAxes3D/2796882004_1121617232_2877860000.mp4'
-file 'file:C:/Users/biraj/OneDrive/ドキュメント/My codes/Calculus 2 Project/media/videos/gabrielhorn/1080p60/partial_movie_files/XYZAxes3D/2796882004_2642742952_2182663067.mp4'
-file 'file:C:/Users/biraj/OneDrive/ドキュメント/My codes/Calculus 2 Project/media/videos/gabrielhorn/1080p60/partial_movie_files/XYZAxes3D/2796882004_1121617232_1084161167.mp4'
-file 'file:C:/Users/biraj/OneDrive/ドキュメント/My codes/Calculus 2 Project/media/videos/gabrielhorn/1080p60/partial_movie_files/XYZAxes3D/2796882004_789064381_1820420328.mp4'

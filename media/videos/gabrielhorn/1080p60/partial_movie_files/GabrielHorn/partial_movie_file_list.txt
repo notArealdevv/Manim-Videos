@@ -1,4 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/biraj/OneDrive/Desktop/Calculus 2 Project/media/videos/gabrielhorn/1080p60/partial_movie_files/GabrielHorn/3977891868_3497820100_223132457.mp4'
-file 'file:C:/Users/biraj/OneDrive/Desktop/Calculus 2 Project/media/videos/gabrielhorn/1080p60/partial_movie_files/GabrielHorn/2852726489_1839128356_1744138935.mp4'
-file 'file:C:/Users/biraj/OneDrive/Desktop/Calculus 2 Project/media/videos/gabrielhorn/1080p60/partial_movie_files/GabrielHorn/2852726489_1320571067_3757029502.mp4'
